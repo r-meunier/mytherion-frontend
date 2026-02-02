@@ -105,14 +105,7 @@
 
 ## ⏳ Remaining Tasks (Future Phases)
 
-### Project Settings Page
-
-- [ ] Create `app/projects/[projectId]/settings/page.tsx`
-- [ ] Use ProjectForm in edit mode
-- [ ] Add delete project confirmation dialog
-- [ ] Add back navigation
-
-### Phase 4: Entities (Basic CRUD) ✅ **COMPLETE**
+### Phase 4: Entities (Basic CRUD)
 
 - [x] Create entity list page with filters
 - [x] Create entity card component
@@ -124,6 +117,28 @@
 - [x] Add tag input component
 - [x] Add search bar component
 - [x] Add tag filter sidebar
+
+### Phase 7: Polish & UX
+
+- [x] Add loading states
+- [x] Add error handling
+- [x] Add empty states (no projects, no entities)
+- [x] Add confirmation dialogs for delete
+- [ ] Add toast notifications for success/error
+- [ ] Optimize performance (lazy loading, pagination)
+- [ ] Add keyboard shortcuts
+- [x] Mobile responsive design
+
+---
+
+## ⏳ Remaining Tasks (Future Phases)
+
+### Project Settings Page
+
+- [ ] Create `app/projects/[projectId]/settings/page.tsx`
+- [ ] Use ProjectForm in edit mode
+- [ ] Add delete project confirmation dialog
+- [ ] Add back navigation
 
 ### Phase 5: Entity Types (Metadata)
 
@@ -141,17 +156,6 @@
 - [ ] Add image to entity card
 - [ ] Add image to entity detail view
 - [ ] Handle image deletion
-
-### Phase 7: Polish & UX
-
-- [ ] Add loading states
-- [ ] Add error handling
-- [ ] Add empty states (no projects, no entities)
-- [ ] Add confirmation dialogs for delete
-- [ ] Add toast notifications for success/error
-- [ ] Optimize performance (lazy loading, pagination)
-- [ ] Add keyboard shortcuts
-- [ ] Mobile responsive design
 
 ---
 
